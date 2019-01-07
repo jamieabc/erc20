@@ -1,5 +1,5 @@
-var JimJimCoin = artifacts.require("./JimJimCoin.sol");
+var AaronToken = artifacts.require("./AaronToken.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(JimJimCoin);
+  deployer.deploy(AaronToken);
 };
