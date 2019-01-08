@@ -18,6 +18,7 @@
     "chai-bignumber": "^3.0.0",
     "ethereumjs-account": "^2.0.5",
     "ethereumjs-util": "^6.0.0",
+    "level-dump": "^1.1.0",
     "leveldown": "^4.0.1",
     "levelup": "^4.0.0",
     "merkle-patricia-tree": "^2.3.2",
