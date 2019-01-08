@@ -1,12 +1,11 @@
 pragma solidity 0.4.24;
 
 import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
-import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
 
 /**
  * @title BeatToken is a basic ERC20 Token
  */
-contract BearToken is ERC20, Ownable{
+contract BearToken is ERC20 {
   uint256 public totalSupply;
   string public name;
   string public symbol;

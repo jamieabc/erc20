@@ -1,9 +1,8 @@
 pragma solidity 0.4.24;
 
 import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
-import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
 
-contract CubToken is ERC20, Ownable{
+contract CubToken is ERC20 {
   uint256 public totalSupply;
   string public name;
   string public symbol;
