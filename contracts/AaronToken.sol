@@ -2,6 +2,7 @@ pragma solidity 0.4.24;
 
 /* import 'zeppelin-solidity/contracts/token/ERC20/MintableToken.sol'; */
 import 'openzeppelin-solidity/contracts/token/ERC20/ERC20.sol';
+/* import 'openzeppelin-solidity/contracts/ownership/Ownable.sol'; */
 
 contract AaronToken is ERC20 {
   string public constant name = "AaronToken";
